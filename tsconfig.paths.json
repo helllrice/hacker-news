@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "paths": {
+      "@/*": ["./src/*"],
+    },
+    "include": ["src/**/*.ts", "declarations.d.ts"]
+  }
+}

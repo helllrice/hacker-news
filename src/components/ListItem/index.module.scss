@@ -1,0 +1,27 @@
+.News {
+  text-decoration: none;
+  color: #000;
+}
+
+.NewsContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #c6c6c6;
+    h2 {
+      font-size: 16px;
+    }
+    img {
+      width: 150px;
+      height: 40px;
+      object-fit: contain;
+    }
+    p {
+      img {
+        width: 13px;
+        height: 13px;
+      }
+    }
+}
+
+
